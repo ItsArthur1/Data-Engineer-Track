@@ -3,7 +3,7 @@
 - Database: A database stores data.
 - The information is housed in objects
 - Tables are objects (Patrons, books, checkouts)
-- Data is orginize as the row of the columns
+- Data is orginized as the rows of the columns
 - This database contains 3 tables.
 
 <br>
@@ -53,7 +53,7 @@ Example:
 
 Library patron is associated with several checkouts, this can answer questions like: "Which books did James check out during 2022?" or "Which books are checked out most often?"
 
-We can see above the tables of the database, and we can look that, checkouts and books has also a relationship.
+We can see above, the tables of the database, and we can look that, checkouts and books have also a relationship.
 
 <br>
 
