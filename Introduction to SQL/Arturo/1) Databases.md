@@ -3,7 +3,7 @@
 - Database: A database stores data.
 - The information is housed in objects
 - Tables are objects (Patrons, books, checkouts)
-- Data is orginize as de row of the columns
+- Data is orginize as the row of the columns
 - This database contains 3 tables.
 
 <br>
