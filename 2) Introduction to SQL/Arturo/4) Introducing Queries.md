@@ -24,7 +24,7 @@ To write SQL, is necesary to learn a few keywords, keywords are reserved words u
 - SELECT
 - FROM
 
-The SELECT keyword indicates which fields should be selected.
+The SELECT keyword indicates which fields should be selected for the result set.
 
 The FROM keyword indicatres indicates the table in which these fields are located.
 
