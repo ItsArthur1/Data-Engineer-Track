@@ -25,7 +25,7 @@ PostgreSQL:
 
 Query Code:
 
-````
+````SQL
 SELECT id, name
 FROM employees
 LIMIT 2;
@@ -39,7 +39,7 @@ SQL Server:
 
 Query Code:
 
-````
+````SQL
 SELECT id, name
 FROM employees
 TOP 2;
@@ -52,7 +52,7 @@ The keyword LIMIT is used for limiting the output of the result test.
 
 Query code example:
 
-````
+````SQL
 
 SELECT genre
 FROM books

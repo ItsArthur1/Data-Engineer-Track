@@ -9,7 +9,7 @@ A query can either be a request for data results from your database or for actio
 
 For example:
 
-```
+```SQL
 
 SELECT name AS first_name, year_hired
 FROM employees;
@@ -27,12 +27,12 @@ The keyword DISTINCT, eliminates all duplicate records from the result returned 
 
 For example:
 
-````
+````SQL
 
 SELECT DISTINCT year_hired
 FROM employees;
 
-# The result set of this query are the unique values of the year_hired field.
+--The result set of this query are the unique values of the year_hired field.
 
 
 ````
@@ -46,7 +46,7 @@ We have to add the keyword DISTINCT before the fields to select
 Query code:
 
 
-````
+````SQL
 SELECT DISTINCT dept_id, year_hired
 FROM employees;
 
@@ -68,7 +68,7 @@ To create a view, we'll add a line of code before the SELECT statement: CREATE V
 
 Query code example:
 
-````
+````SQL
 
 CREATE VIEW employee_hire_years AS
 SELECT id, name, year_hired
@@ -86,7 +86,7 @@ Using the last query example, this is how a view is used.
 
 Query code:
 
-````
+````SQL
 
 SELECT id, name
 FROM employee_hire_years;
@@ -103,7 +103,7 @@ Once a view is created, however, we can query it just as we would a normal table
 <h3> Example one, using Distinct: </h3>
 
 
-````
+````SQL
 SELECT DISTINCT author, genre
 FROM books;
 
@@ -111,7 +111,7 @@ FROM books;
 
 <h3> Using Aliasing (AS) with DISTINCT <h3>
 
-```
+```SQL
 SELECT DISTINCT author AS unique_author
 FROM books;
 
@@ -123,7 +123,7 @@ FROM books;
 
 - Creating the view:
 
-````
+````SQL
 CREATE VIEW library_authors AS
 SELECT DISTINCT author AS unique_author
 FROM books;
@@ -131,7 +131,7 @@ FROM books;
 ````
 - Viewing, querying the view:
 
-````
+````SQL
 SELECT * 
 FROM library_authors
 ````

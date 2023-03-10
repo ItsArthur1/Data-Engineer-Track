@@ -71,12 +71,12 @@ checkouts:
 
 This is a query from the library database above:
 
-```
+```SQL
 
 SELECT name
 FROM patrons;
 
-# The result set lists all names from the patrons table.
+-- The result set lists all names from the patrons table.
 
 
 ```
@@ -91,12 +91,12 @@ The Query results are often called "result set".
 
 To select multiple fields, we can list multiple field names after the SELECT keyword, separated by commas
 
-```
+```SQL
 
 SELECT card_num, name
 FROM patrons;
 
-# The result set lists all names and card number from the patrons table.
+-- The result set lists all names and card number from the patrons table.
 
 
 ```
@@ -104,12 +104,12 @@ FROM patrons;
 Other example:
 
 
-```
+```SQL
 
 SELECT card_num, name, total_fine
 FROM patrons;
 
-# The result set lists all  names, card number and total fine from the patrons table.
+-- The result set lists all  names, card number and total fine from the patrons table.
 
 
 ```
@@ -119,12 +119,12 @@ FROM patrons;
 <h2>- Selecting all fields</h2>
 
 
-```
+```SQL
 
 SELECT *
 FROM patrons;
 
-# The result set lists all the fields from the table patrons
+--The result set lists all the fields from the table patrons
 
 
 ```
